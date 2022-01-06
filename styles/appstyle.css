@@ -1,0 +1,124 @@
+.navs{
+    display: flex;
+    background:whitesmoke;
+    box-shadow: 1px 1px 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.logo{
+    font-size: 30px;
+    align-items: center;
+    margin-left: 20px;
+    color:crimson;
+}
+
+/* .logos {
+    background-color: crimson;
+    border-radius: 10px;
+} */
+
+.search{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.searchtext{
+    align-items: center;
+    align-content: center;
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.searchtext:focus-visible{
+    border: none;
+    outline: unset;
+}
+
+.sub-navs{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    flex-grow: 1;
+    margin-left: 12px;
+}
+
+.nav-btn{
+    padding: 10px 20px;
+    margin: 3px;
+    display: flex;
+    background-color: azure;
+    border-radius: 10px;
+    border: 0.5px solid transparent;
+    color: crimson;
+    background-image: url("https://www.pngitem.com/pimgs/m/42-422736_paw-print-x-dog-image-free-clip-art.png");
+}
+
+.nav-btn:hover{
+    border: 0.5px solid crimson;
+}
+
+.nav-btn:active{
+    border: 0.5px solid crimson;
+}
+
+.address-holder{
+    display: flex;
+    color: crimson;
+    align-items: center;
+    width: 300px;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 12px;
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+}
+
+.my-address {
+    width: 250px;
+    overflow: hidden;
+    flex-grow: 1;
+    text-overflow: ellipsis;
+}
+
+.avatar {
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+.contents{
+    margin-top: 50px;
+}
+
+.sample{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.imageholder{
+    width: 321px;
+    height: 272px;
+    overflow: hidden;
+}
+
+.rounded{
+    width: 100%;
+}
+
+.create-btn{
+    background: crimson;
+}
+
+.dash-container{
+    height: 540px;
+}
+
+.bs-btn {
+    background-color: crimson;
+}
+
+.main-container {
+    padding-bottom: 60px;
+}
